@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/gurpreetandharveen/static/css/main.ca578510.css",
+    "main.js": "/gurpreetandharveen/static/js/main.cf363095.js",
+    "index.html": "/gurpreetandharveen/index.html",
+    "main.ca578510.css.map": "/gurpreetandharveen/static/css/main.ca578510.css.map",
+    "main.cf363095.js.map": "/gurpreetandharveen/static/js/main.cf363095.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca578510.css",
+    "static/js/main.cf363095.js"
+  ]
+}
