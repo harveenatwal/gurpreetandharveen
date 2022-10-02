@@ -1,0 +1,31 @@
+.App-headline {
+  font-family: "Autography";
+  font-size: 2.369rem;
+}
+
+.App-subhead {
+  font-size: 1.1111rem;
+}
+
+.App-rsvp {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+}
+
+@media (min-width: 600px) {
+  .App-headline {
+    font-size: 3.157rem;
+  }
+  .App-subhead {
+    font-size: 1.333rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .App-headline {
+    font-size: 4.209rem;
+  }
+}
