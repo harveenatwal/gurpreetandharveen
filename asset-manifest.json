@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.ca578510.css",
-    "main.js": "/static/js/main.cf363095.js",
+    "main.css": "/static/css/main.9e87e009.css",
+    "main.js": "/static/js/main.c8ce5ab7.js",
+    "static/media/fade-in.png": "/static/media/fade-in.c1ffbae7ee9468bcd917.png",
+    "static/media/fade-out.png": "/static/media/fade-out.63a1c804fbf137a348ea.png",
     "index.html": "/index.html",
-    "main.ca578510.css.map": "/static/css/main.ca578510.css.map",
-    "main.cf363095.js.map": "/static/js/main.cf363095.js.map"
+    "main.9e87e009.css.map": "/static/css/main.9e87e009.css.map",
+    "main.c8ce5ab7.js.map": "/static/js/main.c8ce5ab7.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca578510.css",
-    "static/js/main.cf363095.js"
+    "static/css/main.9e87e009.css",
+    "static/js/main.c8ce5ab7.js"
   ]
 }
