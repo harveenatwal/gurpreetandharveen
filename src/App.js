@@ -7,10 +7,16 @@ function App() {
       <section className="App-section text_center relative z-9">
         <div className="App-section-inner sticky">
           <img className="App-portrait" src={gurpreetandharveen} />
+          <div className="mt-3 text-secondary">
+            <h1 className="App-headline">Gurpreet and Harveen</h1>
+            <h5 className="App-footnote">Fremont, California</h5>
+            <h6 className="App-footnote mt-1">October 14, 2023</h6>
+          </div>
+          <div style={{ display: "flex", height: "50px", width: "1px" }}></div>
         </div>
         <div className="App-fade-out"></div>
       </section>
-      <section className="App-section text_center relative z-8">
+      {/* <section className="App-section text_center relative z-8">
         <div className="App-section-inner sticky">
           <h1 className="App-headline">Gurpreet and Harveen</h1>
           <div className="mt-3 text-secondary">
@@ -20,7 +26,7 @@ function App() {
         </div>
         <div className="App-fade-in"></div>
         <div className="App-fade-out"></div>
-      </section>
+      </section> */}
       <section className="App-section text_center relative">
         <div className="App-section-inner sticky">
           <h1 className="App-headline">Rsvp</h1>

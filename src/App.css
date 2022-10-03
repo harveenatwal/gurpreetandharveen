@@ -57,7 +57,9 @@
 }
 
 .App-portrait {
-  width: 80%;
+  width: 60%;
+  margin-bottom: 24px;
+  border-radius: 8px;
 }
 
 .App-headline {
@@ -103,7 +105,7 @@
   }
 
   .App-portrait {
-    width: 60%;
+    width: 50%;
   }
 }
 
@@ -113,6 +115,7 @@
   }
 
   .App-portrait {
-    width: 50%;
+    width: 30%;
+    margin-bottom: 30px;
   }
 }
