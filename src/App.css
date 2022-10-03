@@ -1,3 +1,25 @@
+.App-section {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 200vh;
+  margin-top: -50vh;
+}
+
+.App-section:first-child {
+  margin-top: 0;
+}
+
+.App-section-inner {
+  margin-top: -100vh;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
 .App-headline {
   font-family: "Autography";
   font-size: 2.369rem;
@@ -7,12 +29,28 @@
   font-size: 1.1111rem;
 }
 
-.App-rsvp {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  justify-content: center;
+.App-footnote {
+  font-size: 1rem;
+}
+
+.App-fade-out {
+  position: absolute;
+  height: 200vh;
+  width: 100%;
+  background-image: url(./fade-out.png);
+  background-repeat: repeat-x;
+  background-size: contain;
+  top: 0;
+}
+
+.App-fade-in {
+  position: absolute;
+  height: 150vh;
+  width: 100%;
+  background-image: url(./fade-in.png);
+  background-repeat: repeat-x;
+  background-size: contain;
+  top: 0;
 }
 
 @media (min-width: 600px) {
@@ -21,6 +59,9 @@
   }
   .App-subhead {
     font-size: 1.333rem;
+  }
+  .App-footnote {
+    font-size: 1.111rem;
   }
 }
 

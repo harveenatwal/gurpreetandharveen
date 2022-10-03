@@ -3,13 +3,22 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <div>
-        <div className="App-portrait"></div>
-        <div className="App-rsvp text_center">
+      {/* <section className="App-section App-portrait"></section> */}
+      <section className="App-section text_center relative">
+        <div className="App-section-inner sticky">
           <h1 className="App-headline">Gurpreet and Harveen</h1>
-          <h5 className="App-subhead">October 14, 2023</h5>
+          <h5 className="App-subhead">Fremont, California</h5>
+          <h6 className="App-footnote">October 14, 2023</h6>
         </div>
-      </div>
+        <div className="App-fade-out"></div>
+      </section>
+      <section className="App-section text_center relative">
+        <div className="App-section-inner sticky">
+          <h1 className="App-headline">Rsvp</h1>
+        </div>
+        <div className="App-fade-in"></div>
+        {/* <div className="App-fade-out"></div> */}
+      </section>
     </div>
   );
 }

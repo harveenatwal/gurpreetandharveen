@@ -130,6 +130,7 @@ table {
 
 /** **/
 body {
+  background-color: white;
   font-family: "Mukta", sans-serif;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
@@ -177,4 +178,21 @@ small,
 
 .text_center {
   text-align: center;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+}
+
+.mt-1 {
+  margin-top: 4px;
 }
