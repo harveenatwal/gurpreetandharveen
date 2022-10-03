@@ -131,6 +131,7 @@ table {
 /** **/
 body {
   background-color: white;
+  color: #18181b;
   font-family: "Mukta", sans-serif;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
@@ -194,5 +195,17 @@ small,
 }
 
 .mt-1 {
+  margin-top: 2px;
+}
+
+.mt-2 {
   margin-top: 4px;
+}
+
+.mt-3 {
+  margin-top: 8px;
+}
+
+.text-secondary {
+  color: #3f3f46;
 }

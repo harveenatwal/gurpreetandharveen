@@ -7,8 +7,10 @@ function App() {
       <section className="App-section text_center relative">
         <div className="App-section-inner sticky">
           <h1 className="App-headline">Gurpreet and Harveen</h1>
-          <h5 className="App-subhead">Fremont, California</h5>
-          <h6 className="App-footnote">October 14, 2023</h6>
+          <div className="mt-3 text-secondary">
+            <h5 className="App-footnote">Fremont, California</h5>
+            <h6 className="App-footnote mt-1">October 14, 2023</h6>
+          </div>
         </div>
         <div className="App-fade-out"></div>
       </section>
