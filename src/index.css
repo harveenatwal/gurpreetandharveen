@@ -209,3 +209,11 @@ small,
 .text-secondary {
   color: #3f3f46;
 }
+
+.z-9 {
+  z-index: 9;
+}
+
+.z-8 {
+  z-index: 8;
+}
