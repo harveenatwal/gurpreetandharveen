@@ -1,5 +1,5 @@
 import "./App.css";
-import gurpreetandharveen from "./gurpreetandharveen.png";
+import gurpreetandharveen from "./gurpreetandharveen.jpg";
 import { ArrowDown } from "react-feather";
 import { useRef } from "react";
 import smoothscroll from "smoothscroll-polyfill";
