@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.cb1cbe82.css",
-    "main.js": "/static/js/main.6326337d.js",
+    "main.css": "/static/css/main.a77da33f.css",
+    "main.js": "/static/js/main.f3f31d44.js",
     "static/media/gurpreetandharveen.png": "/static/media/gurpreetandharveen.0dd05fa6f1b13ba9766b.png",
     "static/media/fade-out.png": "/static/media/fade-out.7b49bdaba80d95a3eb9d.png",
     "static/media/fade-in.png": "/static/media/fade-in.4a51d19b194f101a50d0.png",
     "index.html": "/index.html",
-    "main.cb1cbe82.css.map": "/static/css/main.cb1cbe82.css.map",
-    "main.6326337d.js.map": "/static/js/main.6326337d.js.map"
+    "main.a77da33f.css.map": "/static/css/main.a77da33f.css.map",
+    "main.f3f31d44.js.map": "/static/js/main.f3f31d44.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb1cbe82.css",
-    "static/js/main.6326337d.js"
+    "static/css/main.a77da33f.css",
+    "static/js/main.f3f31d44.js"
   ]
 }
