@@ -115,3 +115,24 @@
 .App-rsvp-link:hover .h1 {
   color: #71717a;
 }
+
+.App-fade-in-first {
+  margin-top: -100vh !important;
+}
+
+.App-rsvp-jump {
+  border: 0.5px solid #18181b;
+  border-radius: 1000px;
+  position: absolute;
+  bottom: 40px;
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-rsvp-jump:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}

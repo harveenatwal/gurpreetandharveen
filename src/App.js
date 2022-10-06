@@ -1,10 +1,23 @@
 import "./App.css";
 import gurpreetandharveen from "./gurpreetandharveen.png";
+import { ArrowDown } from "react-feather";
+import { useRef } from "react";
+import smoothscroll from "smoothscroll-polyfill";
+
+smoothscroll.polyfill();
 
 function App() {
+  const rsvpRef = useRef();
+  const handleScrollToRsvp = () => {
+    if (rsvpRef) {
+      rsvpRef.current.scrollIntoView({ behavior: "smooth", block: "end" });
+    }
+  };
+
   return (
     <div className="App">
       <section className="App-section text_center relative z-9">
+        <div className="App-fade-in App-fade-in-first"></div>
         <div className="App-section-inner sticky">
           <img className="App-portrait" src={gurpreetandharveen} />
           <div className="mt-3">
@@ -22,6 +35,9 @@ function App() {
             </div>
             <h6 className="h6 mt-1 caps text-secondary">Fremont, Ca</h6>
           </div>
+          <div class="App-rsvp-jump" onClick={handleScrollToRsvp}>
+            <ArrowDown size={16} />
+          </div>
           <div style={{ display: "flex", height: "50px", width: "1px" }}></div>
         </div>
         <div className="App-fade-out"></div>
@@ -37,11 +53,13 @@ function App() {
         <div className="App-fade-in"></div>
         <div className="App-fade-out"></div>
       </section> */}
-      <section className="App-section text_center relative">
+      <section className="App-section text_center relative" ref={rsvpRef}>
         <div className="App-section-inner sticky">
           <a
             className="flex flex-col App-rsvp-link"
             href="https://forms.gle/5cdnLXzhqjQjVXLX8"
+            target="_blank"
+            rel="nofollow"
           >
             <h6 className="h6 text-tertiary">Tap to</h6>
             <h1 className="h1 autography mt-4">Rsvp</h1>
