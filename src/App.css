@@ -10,11 +10,13 @@
 .App-section .App-fade-in {
   margin-top: 100vh;
   height: 100vh;
+  pointer-events: none;
 }
 
 .App-section .App-fade-out {
   margin-top: 200vh;
   height: 100vh;
+  pointer-events: none;
 }
 
 .App-section:first-child {
@@ -57,22 +59,9 @@
 }
 
 .App-portrait {
-  width: 60%;
+  width: 80%;
   margin-bottom: 24px;
-  border-radius: 8px;
-}
-
-.App-headline {
-  font-family: "Autography";
-  font-size: 2.369rem;
-}
-
-.App-subhead {
-  font-size: 1.1111rem;
-}
-
-.App-footnote {
-  font-size: 0.999rem;
+  border-radius: 4px;
 }
 
 .App-fade-out {
@@ -94,28 +83,35 @@
 }
 
 @media (min-width: 600px) {
-  .App-headline {
-    font-size: 3.157rem;
-  }
-  .App-subhead {
-    font-size: 1.333rem;
-  }
-  .App-footnote {
-    font-size: 1.111rem;
-  }
-
   .App-portrait {
     width: 50%;
   }
 }
 
 @media (min-width: 900px) {
-  .App-headline {
-    font-size: 4.209rem;
-  }
-
   .App-portrait {
     width: 30%;
     margin-bottom: 30px;
   }
+}
+
+.App-date-divider {
+  width: 1px;
+  height: 12px;
+  background-color: #18181b;
+  margin: 0 8px;
+}
+
+.App-invitation-follow {
+  bottom: 40px;
+  width: 200px;
+}
+
+.App-rsvp-link {
+  color: inherit;
+  text-align: left;
+}
+
+.App-rsvp-link:hover .h1 {
+  color: #71717a;
 }

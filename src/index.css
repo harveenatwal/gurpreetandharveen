@@ -130,9 +130,9 @@ table {
 
 /** **/
 body {
-  background-color: white;
+  background-color: #f6f4f3;
   color: #18181b;
-  font-family: "Mukta", sans-serif;
+  font-family: "Lora", serif;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -152,24 +152,28 @@ h5 {
   line-height: 1.3;
 }
 
-h1 {
-  font-size: 4.209rem;
-}
-
-h2 {
+.h1 {
   font-size: 3.157rem;
 }
 
-h3 {
+.h2 {
   font-size: 2.369rem;
 }
 
-h4 {
+.h3 {
   font-size: 1.777rem;
 }
 
-h5 {
+.h4 {
   font-size: 1.333rem;
+}
+
+.h5 {
+  font-size: 1.333rem;
+}
+
+.h6 {
+  font-size: 0.8rem;
 }
 
 small,
@@ -206,8 +210,21 @@ small,
   margin-top: 8px;
 }
 
+.mt-4 {
+  margin-top: 12px;
+}
+
+.mx-2 {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
 .text-secondary {
   color: #3f3f46;
+}
+
+.text-tertiary {
+  color: #71717a;
 }
 
 .z-9 {
@@ -216,4 +233,56 @@ small,
 
 .z-8 {
   z-index: 8;
+}
+
+.caps {
+  text-transform: uppercase;
+}
+
+.flex {
+  display: flex;
+}
+.flex-col {
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+@media (min-width: 600px) {
+}
+
+@media (min-width: 900px) {
+  .h1 {
+    font-size: 4.209rem;
+  }
+
+  .h2 {
+    font-size: 3.157rem;
+  }
+
+  .h3 {
+    font-size: 2.369rem;
+  }
+
+  .h4 {
+    font-size: 1.777rem;
+  }
+}
+
+.autography {
+  font-family: "Autography";
+}
+
+.italic {
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
 }
