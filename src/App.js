@@ -36,7 +36,7 @@ function App() {
             <h6 className="h6 mt-1 caps text-secondary">Fremont, Ca</h6>
           </div>
           <div class="App-rsvp-jump" onClick={handleScrollToRsvp}>
-            <ArrowDown size={16} />
+            <ArrowDown size={16} color="#18181b" />
           </div>
           <div style={{ display: "flex", height: "50px", width: "1px" }}></div>
         </div>
