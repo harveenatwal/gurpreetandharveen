@@ -59,7 +59,7 @@
 }
 
 .App-portrait {
-  width: 86%;
+  width: 84%;
   margin-bottom: 24px;
   border-radius: 4px;
 }
@@ -84,13 +84,13 @@
 
 @media (min-width: 600px) {
   .App-portrait {
-    width: 60%;
+    width: 70%;
   }
 }
 
 @media (min-width: 900px) {
   .App-portrait {
-    width: 40%;
+    width: 35%;
     margin-bottom: 30px;
   }
 }
