@@ -121,7 +121,8 @@
 }
 
 .App-rsvp-jump {
-  border: 0.5px solid #18181b;
+  border: 0.5px solid #6b2b15;
+  color: #aa4421;
   border-radius: 1000px;
   position: absolute;
   bottom: 40px;

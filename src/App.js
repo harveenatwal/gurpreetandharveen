@@ -21,22 +21,26 @@ function App() {
         <div className="App-section-inner sticky">
           <img className="App-portrait" src={gurpreetandharveen} />
           <div className="mt-3">
-            <h1 className="h2 autography">Save the date</h1>
-            <h6 className="h6 caps text-tertiary mt-3">For the marriage of</h6>
-            <h2 className="h4 caps flex items-center justify-center mt-1">
+            <h1 className="h2 autography text-accent">Save the date</h1>
+            <h6 className="h6 caps text-tertiary mt-3 text-accent-secondary">
+              For the marriage of
+            </h6>
+            <h2 className="h4 caps flex items-center justify-center mt-1 text-accent">
               Gurpreet <span className="h6 mx-2 text-secondary">•</span> Harveen
             </h2>
-            <div className="flex justify-center items-center mt-2">
-              <h6 className="h6 caps text-secondary">Oct</h6>
+            <div className="flex justify-center items-center mt-2 text-accent-secondary">
+              <h6 className="h6 caps">Oct</h6>
               <div className="App-date-divider"></div>
-              <h4 className="h4 caps">14</h4>
+              <h4 className="h4 caps text-accent">14</h4>
               <div className="App-date-divider"></div>
-              <h6 className="h6 caps text-secondary">2023</h6>
+              <h6 className="h6 caps">2023</h6>
             </div>
-            <h6 className="h6 mt-1 caps text-secondary">Fremont, Ca</h6>
+            <h6 className="h6 mt-1 caps text-secondary text-accent-secondary">
+              Fremont, Ca
+            </h6>
           </div>
           <div class="App-rsvp-jump" onClick={handleScrollToRsvp}>
-            <ArrowDown size={16} color="#18181b" />
+            <ArrowDown size={16} color="#aa4421" />
           </div>
           <div style={{ display: "flex", height: "50px", width: "1px" }}></div>
         </div>
@@ -61,10 +65,10 @@ function App() {
             target="_blank"
             rel="nofollow"
           >
-            <h6 className="h6 text-tertiary">Tap to</h6>
-            <h1 className="h1 autography mt-4">Rsvp</h1>
+            <h6 className="h6 text-accent-secondary">Tap to</h6>
+            <h1 className="h1 autography mt-4 text-accent">Rsvp</h1>
           </a>
-          <h6 className="h5 mt-1 text-tertiary autography italic absolute App-invitation-follow">
+          <h6 className="h5 mt-1 text-accent-secondary autography italic absolute App-invitation-follow">
             formal invitation to follow
           </h6>
         </div>

@@ -130,7 +130,7 @@ table {
 
 /** **/
 body {
-  background-color: #ffe8e5;
+  background-color: #f5d8cf;
   color: #18181b;
   font-family: "Lora", serif;
   font-size: 16px;
@@ -285,4 +285,12 @@ small,
 
 a {
   text-decoration: none;
+}
+
+.text-accent {
+  color: #6b2b15;
+}
+
+.text-accent-secondary {
+  color: #9b7568;
 }
